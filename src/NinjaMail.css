@@ -1,0 +1,279 @@
+.container{
+  width: 1440px;
+  min-height: 100vh;
+}
+
+.first_section{
+  margin-top: 135px;
+  margin-left: 175px;
+  position: relative;
+}
+
+.main_title{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 59px;
+  line-height: 71px;
+  width: 490px;
+}
+.image_work{
+  position: absolute;
+  top: -20px;
+  z-index: -1;
+  left: 29.5%;
+}
+.down{
+  margin-top: 120px;
+}
+
+.main_desc{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 26px;
+  width: 446px;
+  margin: 24px 0;
+}
+.add_width{
+  width: 200px;
+}
+
+.second_section{
+  margin-top: 260px;
+  height: 800px;
+  position: relative;
+  background: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items : center
+}
+
+.image_slash{
+  top: -180px;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.image_peple{
+  position: absolute;
+  top: 90px;
+  left: 23%;
+  z-index: 2;
+}
+
+.second_section_btn_block{
+  position: absolute;
+  z-index: 3;
+  left: 34%;
+  top: 30%;
+  text-align: center;
+}
+
+.title_in_image{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 80px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.border_none{
+  border : none
+}
+
+.third_section{
+  position: relative;
+}
+
+.image_slanted{
+  top: -266px;
+  position: absolute;
+  z-index: 1;
+}
+
+.card_block{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  z-index: 5;
+  position: relative;
+  height:600px;
+  margin-bottom: 80px;
+}
+.card_item{
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 324px;
+  background-color: #fff;
+}
+.card_text{
+  padding: 24px 30px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.up{
+  margin-top: 80px;
+}
+
+.card_title{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 48px;
+  width: 365px;
+}
+
+.card_desc{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 26px;
+  width: 322px;
+}
+
+.fourth_section{
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fourth_sec_image_block{
+  position: relative;
+}
+.fourth_sec_text_block{
+  position: absolute;
+  bottom: 20px;
+  left: 27px;
+  color : #fff;
+}
+
+.fourth_sec_text_title{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.fourth_sec_text_desc{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+}
+
+.fourth_sec_title{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 48px;
+  text-align: center;
+  width: 900px;
+  margin-top: 40px;
+}
+
+.fourth_sec_input{
+  width: 420px;
+  background: #FFFFFF;
+  border: 1px solid #9F9F9F;
+  padding: 20px 25px;
+  border-radius: 5px;
+}
+.fourth_sec_margin{
+  margin : 15px 0 120px 0
+}
+
+.fifth_sec_title{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 48px;
+  /* or 109% */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.get_start_block{
+  margin: 95px 0;
+  background: #4BA87D;
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.get_start_title{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footer_item{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.footer_logo_text{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 41px;
+  margin-right: 180px;
+}
+
+.footer_hr{
+  width: 90%;
+  height: 2px;
+  background: #DBDBDB;
+  text-align: center;
+  margin: 74px 0 0 0;
+}
+.footer_under_block{
+  margin-bottom: 40px;
+}
+
+.footer_under_text{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
